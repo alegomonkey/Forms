@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form action="results.html" method="GET">
+      <h2>Personal Details</h2>
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" name='User-name' id="username">
+     	</div>
+      <div>
+        <label for="user-pwd">Password:</label>
+        <input type="password" name="User-password" id="user-pwd">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="User-email" id="email">
+      </div>
+      <div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female">Female</label><br>
+      </div>
+
+      <h2>Educational Qualification</h2>
+      <div>
+        <label for="degrees">Degree:</label>
+        <select name="Degrees" id="degrees">
+          <option value="">-- Select Group --</option>
+          <option value="associates">Associates</option>
+          <option value="bachelors">Bachelors</option>
+          <option value="masters">Masters</option>
+        </select>
+      </div>
+      <div>
+        <label for="engineering">Engineering:</label>
+        <select name="Engineering" id="engineering">
+          <option value="">-- Select Group --</option>
+          <option value="mechanical">Mechanical</option>
+          <option value="civil">Civil</option>
+          <option value="computer">Computer</option>
+          <option value="bio-medical">Bio-Medical</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Hobbies:</label>
+        <input type="radio" id="chess" name="Hobbies" value="Playing Chess">
+        <label for="chess">Playing Chess</label>
+        <input type="radio" id="book" name="Hobbies" value="Reading Books">
+        <label for="book">Reading Books</label><br>
+      </div>
+
+      <h2>Address</h2>
+
+      <div class="address">
+        <input type="text" name='address' id="address">
+     	</div>
+
+      <div>
+        <label for="resume">Attach Resume:</label>
+        <input type="file" name="resume" id="resume">
+      </div>
+
+      <div>
+        <input type="submit">
+      </div>
+    </form>
+  </body>
+</html>
